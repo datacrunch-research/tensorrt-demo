@@ -1,4 +1,4 @@
-# End to end workflow to run LLaMA
+# End to end workflow to run LLaMA
 
 Our example targets **LLaMA 3** architecture, but previous versions are also supported. LLaMA 3.1 isn’t yet added.
 
