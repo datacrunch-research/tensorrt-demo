@@ -38,7 +38,7 @@ Copy **triton_model_repo** directory from tensorrt-demo to tensorrtllm_backend:
 cp -r ${tensorrt_demo_dir}/triton_model_repo ${tensorrtllm_backend_dir}/
 ```
 
-Start **trt-llm-triton** docker:
+Start **trt-llm-triton** docker **(tensorrt-llm v0.9.0**) -> nvcr.io/nvidia/tritonserver:24.04-trtllm-python-py3:
 
 ```bash
 export models_dir=$HOME/models
