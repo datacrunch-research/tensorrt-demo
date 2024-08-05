@@ -212,3 +212,7 @@ curl -X POST localhost:8000/v2/models/ensemble/generate -d '{"text_input": "What
 echo '{"text_input": "What is machine learning?", "max_tokens": 20, "bad_words": "", "stop_words": "", "pad_id": 2, "end_id": 2}' > tmp.txt
 printf '%s\n' {1..20} | xargs -I % -P 20 curl -X POST localhost:8000/v2/models/ensemble/generate -d @tmp.txt
 ```
+
+# Acknowledgments
+
+- [neuralmagic](https://github.com/neuralmagic)/[tensorrt-demo](https://github.com/neuralmagic/tensorrt-demo)
